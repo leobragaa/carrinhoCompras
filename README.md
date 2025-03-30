@@ -1,6 +1,6 @@
 # Projeto Carrinho de Compras
 
-### Este projeto foi uma atividade que foi passada na faculdade.
+### Este projeto foi uma atividade que foi passado na faculdade.
 
 ✅ Objetivo:
 
