@@ -21,7 +21,7 @@
   
 ![image](https://github.com/user-attachments/assets/ea278879-6ca1-4be0-874c-6ba70e74974d)
 
-- Grid de produtos:
+- Grid de produtos e buttons que adicionam e retiram produtos:
   
 ![image](https://github.com/user-attachments/assets/449b1dc8-ed22-49cc-8798-8696ffaef8f3)
 
