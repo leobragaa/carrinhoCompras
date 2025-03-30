@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="stylesListShopping.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="product-everything">
+        <div class="carrinho">
+            <div class="title">
+                <h2>Seu carrinho tem <strong>5 itens</strong></h2>
+                <button class="close">&times</button>
+            </div>
+            <div class="product-card">
+                <div class="item">
+                    <div class="product-image">  <img src="product-image-monitor.jpg" alt="Monitor Gamer Curvo 49"> </div>
+                    <div class="product-info">
+                        <div class="product-title"> Monitor Gamer Curvo 49 DQHD, 240Hz, 1ms, HDMI e...</div>
+                        <div class="product-price"> R$ 8.599,90 </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btd sub-button" onclick="this.nextElementSibling.value = Math.max(0, Number(this.nextElementSibling.value) - 1)">-</button>
+                        <input type="text" value="0" readonly>
+                        <button class="btd plus-button" onclick="this.previousElementSibling.value = Number(this.previousElementSibling.value) + 1">+</button>
+                    </div>
+                </div>
+        
+                <div class="item">
+                    <div class="product-image"><img src="product-image-cadeira.jpg" alt="Cadeira Gamer"></div>
+                    <div class="product-info">
+                        <div class="product-title">Cadeira Gamer RGB - Preta com Iluminação (Led)</div>
+                        <div class="product-price">R$ 959,90</div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btd sub-button" onclick="this.nextElementSibling.value = Math.max(0, Number(this.nextElementSibling.value) - 1)">-</button>
+                        <input type="text" value="0" readonly>
+                        <button class="btd plus-button" onclick="this.previousElementSibling.value = Number(this.previousElementSibling.value) + 1">+</button>
+                    </div>
+                </div>
+                    
+                <div class="item">
+                    <div class="product-image"><img src="product-image-teclado.jpg" alt="Teclado Gamer Mecânico"></div>
+                    <div class="product-info">
+
+                        <div class="product-title">Teclado Gamer Mecânico Low Profile RGB AW510K 580</div>
+                        <div class="product-price">R$ 1.002,00</div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btd sub-button" onclick="this.nextElementSibling.value = Math.max(0, Number(this.nextElementSibling.value) - 1)">-</button>
+                        <input type="text" value="0" readonly>
+                        <button class="btd plus-button" onclick="this.previousElementSibling.value = Number(this.previousElementSibling.value) + 1">+</button>
+                    </div>
+                </div>
+                    
+                <div class="item"> 
+                    <div class="product-image"><img src="product-image-headset.jpg" alt=""></div>
+                    <div class="product-info">
+                        <div class="product-title">Headset Gamer RGB Preto</div>
+                        <div class="product-price">R$ 99,90 </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btd sub-button" onclick="this.nextElementSibling.value = Math.max(0, Number(this.nextElementSibling.value) - 1)">-</button>
+                        <input type="text" value="0" readonly>
+                        <button class="btd plus-button" onclick="this.previousElementSibling.value = Number(this.previousElementSibling.value) + 1">+</button>
+                    </div>
+                </div>
+                
+        
+                <div class="item">
+                    <div class="product-image"><img src="product-image-patinho.jpg" alt=""></div>
+                    <div class="product-info">
+                        <div class="product-title">Pato</div>
+                        <div class="product-price">R$ 19,90</div>
+                    </div>
+                    <div class="buttons">
+                        <button class="btd sub-button" onclick="this.nextElementSibling.value = Math.max(0, Number(this.nextElementSibling.value) - 1)">-</button>
+                        <input type="text" value="0" readonly>
+                        <button class="btd plus-button" onclick="this.previousElementSibling.value = Number(this.previousElementSibling.value) + 1">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="class-total">
+                <div class="total">
+                    <span>Total:</span>
+                    <span><strong>R$ 10.681,60</strong></span>
+                </div>
+                <div class="cupom">
+                    <i class="fas fa-tag"></i>
+                    <span>Adicionar Cupom</span>
+                </div>
+                <div>
+                    <button class="finish">Finalizar Compra</button>
+                </div>
+            </div>           
+        </div>
+    </div>
+</body>
+</html>
